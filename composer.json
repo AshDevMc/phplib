@@ -1,0 +1,15 @@
+{
+    "name": "ashmcdev/phplib",
+    "description": "A collection of PHP functions and classes",
+    "type": "library",
+    "license": "none",
+    "authors": [
+        {
+            "name": "Ashley McGowan"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {},
+    "require": {},
+    "require-dev": {},
+}
