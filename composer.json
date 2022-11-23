@@ -11,5 +11,5 @@
     "minimum-stability": "stable",
     "autoload": {},
     "require": {},
-    "require-dev": {},
+    "require-dev": {}
 }
