@@ -1,7 +1,7 @@
 {
     "name": "ashmcdev/phplib",
     "description": "A collection of PHP functions and classes",
-    "type": "library",
+    "type": "ashmcdev-library",
     "license": "none",
     "authors": [
         {
@@ -10,6 +10,11 @@
     ],
     "minimum-stability": "stable",
     "autoload": {},
-    "require": {},
+    "extra": {
+        "class": "ashmcdev\\Composer\\MyPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "^2.0"
+    },
     "require-dev": {}
 }
