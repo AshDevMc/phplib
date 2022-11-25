@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-0": {"ashmcdev\\Composer": "src/"}
+        "psr-0": {"ashmcdev\\Composer": ""}
     },
     "extra": {
         "class": "ashmcdev\\Composer\\MyPlugin"
