@@ -10,10 +10,10 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"phplib\\Composer\\": "src/Composer/"}
+        "psr-4": {"phplib\\Composer\\": "Composer/"}
     },
     "extra": {
-        "class": "ashmcdev\\Composer\\MyPlugin"
+        "class": "phplib\\Composer\\MyPlugin"
     },
     "require": {
         "composer-plugin-api": "^2.0"
