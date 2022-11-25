@@ -13,7 +13,10 @@
         "psr-0": {"ashmcdev\\Composer": ""}
     },
     "extra": {
-        "class": "ashmcdev\\Composer\\MyPlugin"
+        "class": "ashmcdev\\Composer\\MyPlugin",
+        "installer-paths": {
+            "": ["type:ashmcdev-library"]
+        }
     },
     "require": {
         "composer-plugin-api": "^2.0"
