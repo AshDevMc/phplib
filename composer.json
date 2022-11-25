@@ -10,22 +10,17 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"phplib\\Composer\\": "ashmcdev/Composer/"}
+        "psr-4": {"\\phplib\\Composer\\": "/Composer/"}
     },
     "extra": {
-        "class": "ashmcdev\\Composer\\MyPlugin",
-        "installer-paths": {
-            "": ["type:ashmcdev-library"]
-        }
+        "class": "ashmcdev\\Composer\\MyPlugin"
     },
     "require": {
-        "composer-plugin-api": "^2.0",
-        "composer/installers": "^1.2"
+        "composer-plugin-api": "^2.0"
     },
     "require-dev": {},
     "config": {
         "allow-plugins": {
             "composer/installers": true
-        }
-    }
+        }}
 }
