@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"\\phplib\\Composer\\": "/Composer/"}
+        "psr-4": {"phplib\\Composer\\": "Composer/"}
     },
     "extra": {
         "class": "ashmcdev\\Composer\\MyPlugin"
@@ -19,8 +19,5 @@
         "composer-plugin-api": "^2.0"
     },
     "require-dev": {},
-    "config": {
-        "allow-plugins": {
-            "composer/installers": true
-        }}
+    "config": {}
 }
