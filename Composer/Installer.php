@@ -18,6 +18,5 @@ class MyInstaller implements \Composer\Installer\InstallerInterface
         return "ashmcdev-library" === $packageType;
     }
 }
-}
 
 ?>

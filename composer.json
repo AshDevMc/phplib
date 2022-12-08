@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"phplib\\Composer\\": "Composer/"}
+        "psr-4": {"phplib\\Composer\\": "src/Composer/"}
     },
     "extra": {
         "class": "phplib\\Composer\\MyPlugin"
