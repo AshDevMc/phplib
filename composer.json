@@ -24,7 +24,10 @@
     },
     "extra": {
         "copy-file": {
-            "vendor/ashmcdev/phplib/libs/": "libs"
+            "vendor/ashmcdev/phplib/libs/": "libs/?"
+        },
+        "copy-file-dev": {
+            "vendor/ashmcdev/phplib/libs/": "libs/?"
         }
     },
     "config": {}
