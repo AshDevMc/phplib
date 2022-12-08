@@ -2,13 +2,13 @@
     "name": "ashmcdev/phplib",
     "description": "A collection of PHP functions and classes",
     "type": "ashmcdev-library",
-    "license": "none",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Ashley McGowan"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {},
     "require": {},
     "require-dev": {},
