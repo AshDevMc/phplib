@@ -10,25 +10,9 @@
     ],
     "minimum-stability": "dev",
     "autoload": {},
-    "require": {
-        "slowprog/composer-copy-file": "~0.3"
-    },
+    "require": {},
     "require-dev": {},
-    "scripts": {
-        "post-install-cmd": [
-            "SlowProg\\CopyFile\\ScriptHandler::copy"
-        ],
-        "post-update-cmd": [
-            "SlowProg\\CopyFile\\ScriptHandler::copy"
-        ]
-    },
-    "extra": {
-        "copy-file": {
-            "vendor/ashmcdev/phplib/libs/": "libs/?"
-        },
-        "copy-file-dev": {
-            "vendor/ashmcdev/phplib/libs/": "libs/?"
-        }
-    },
+    "scripts": {},
+    "extra": {},
     "config": {}
 }
