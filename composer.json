@@ -9,15 +9,14 @@
         }
     ],
     "minimum-stability": "stable",
-    "autoload": {
-        "psr-4": {"phplib\\Composer\\": "src/Composer/"}
-    },
-    "extra": {
-        "class": "phplib\\Composer\\MyPlugin"
-    },
-    "require": {
-        "composer-plugin-api": "^2.0"
-    },
+    "autoload": {},
+    "extra": {},
+    "require": {},
     "require-dev": {},
+    "scripts": {
+        "load-project" : [
+            "php -r \"copy('vendor/ashmcdev/libs', /libs);\""
+        ]
+    },
     "config": {}
 }
