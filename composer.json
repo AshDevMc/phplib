@@ -1,11 +1,12 @@
 {
     "name": "ashdevmc/weblibs",
     "description": "A collection of PHP functions and classes",
-    "type": "ashmcdev-library",
+    "type": "package",
     "license": "proprietary",
     "authors": [
         {
-            "name": "Ashley McGowan"
+            "name": "Ashley McGowan",
+            "homepage": "https://amcgowan.co.uk"
         }
     ],
     "minimum-stability": "stable",
