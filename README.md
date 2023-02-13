@@ -8,8 +8,8 @@ A collection of common usfull functions and classes
 
 #composer
 
-You need to add these to you composer to install the 
-
+You need to add these configerations to you composer.json to automaticly install the files into your project.
+I have added comments to explain how it works, feel free to edit:
 
     {
 
