@@ -11,6 +11,8 @@ A collection of common usfull functions and classes
 You need to add these to you composer to install the 
 
 {
+
+    "_comment": "your project settings",
     "name": "your github name/name your project",
     "description": example",
     "type": "library",
@@ -54,6 +56,7 @@ You need to add these to you composer to install the
     "config": {
         
     }
+    
 }
 
 Note: you dont have to include the files to copy my files, however this allows you to ignore the vendor folder when commiting your project.
